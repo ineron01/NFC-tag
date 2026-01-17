@@ -40,7 +40,6 @@
             max-width: 60%;
             min-width: 120px;
             font-size: clamp(12px, 3.5vw, 20px);
-            background-color: #6c757d;
             color: white;
             border: none;
             border-radius: 8px;
@@ -51,14 +50,11 @@
         #playBtn:hover {
             background-color: #218838;
         }
-        #backBtn:hover {
-            background-color: #5a6268;
-        }
     </style>
 </head>
 <body>
-    <button id="playBtn" onclick="playAudio1()">Воспроизвести аудио</button>
-    <button id="backBtn" onclick="playAudio2()">Назад</button>
+    <button id="playBtn" onclick="playAudio1()">Начать</button>
+    <button id="backBtn" onclick="playAudio2()">Отмена</button>
 
     <audio id="audio1" src="audio.mp3"></audio>
     <audio id="audio2" src="audio2.mp3"></audio>
